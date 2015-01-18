@@ -1,0 +1,56 @@
+.area-block {
+    background-color: #e7e7e7;    
+    /*border: 1px solid rgba(82, 187, 242, 1);*/
+    padding: 8px 11px;   
+    border-radius: 3px;
+    min-height: 40px;
+}
+
+.area-block:hover {
+    background-color: #c9c9c9; 
+}    
+
+.area-block div.header a {
+    color: #000;
+    opacity: 0.2;        
+}
+
+.area-block div.header a:hover {    
+    opacity: 0.5;
+}
+
+.area-block div.header a > i {    
+    float: right;
+    margin-right: 5px;
+}
+
+.close-land-block {
+    display: inline-block;
+    float: right;
+}
+
+.close-land-block .close {
+    font-size: 25px;
+    line-height: 0.7;    
+}
+
+.land-active-row {    
+    border-left: 3px solid rgb(248, 139, 139);
+}
+
+div.area-block.active-area-block {
+    background-color: rgba(248, 139, 139, 1);        
+}
+
+#land-draw-area {
+    border: 1px dotted #c2c2c2;
+    padding: 5px;
+}
+
+#land-draw-area div.row {
+    margin-bottom: 10px;
+}
+
+.content-wrap img {
+    max-width: 100%;
+}
